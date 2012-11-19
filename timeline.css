@@ -1,0 +1,165 @@
+#timeline {
+  background-image: url("images/Spine.png"); 
+  background-repeat:repeat-y;
+  /*list-style: none;
+  padding: 0;*/
+  margin: 0 auto;
+  width: 700px;
+  z-index: 1;
+  /*position: relative;*/
+  /* Highlight */
+
+  /* Spine */
+
+}
+
+header {
+  float:left;
+}
+
+nav {
+  float: right;
+  margin-top: 25px;
+  margin-left: 500px;
+  padding-right: 200px;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+
+nav li {
+  color: white;
+  padding: 20px;
+  font-family: sans-serif;
+  font-style: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 1px;
+}
+
+#teamline {
+  width: 600px;
+  margin: 0 auto;
+}
+
+li#topnav {
+  background-color: gray;
+}
+
+li#all {
+  background-color: red;
+}
+
+li#blog {
+  background-color: #007DBF;
+}
+
+li#tweet {
+  background-color: #FF7700;
+}
+
+li#github {
+  background-color: #FFDE1F;  
+}
+
+#date-header {
+  color: gray;
+  font-family: sans-serif;
+  font-style: bold;
+  font-size: 40px;
+  padding-left: 40px;
+  text-align: center;
+  margin: 20px;
+}
+
+#logo {
+  background-image: url("images/teamlineheader.png");
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 400px;
+  margin-left: 200px;
+  margin-top: 20px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+
+.event {
+  color: white;
+  font-family: sans-serif;
+  font-style: bold;
+  font-size: 32px;
+  position: relative;
+  border-radius: 5px;
+  width: 300px;
+  height: auto;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  word-wrap: break-word;
+
+}
+
+.event.tweet {
+  background-color: #FF7700;
+}
+
+.event.ghevent {
+  background-color: #FFDE1F; 
+}
+
+.event.post {
+  background-color: #007DBF;
+}
+
+.event.secondary {
+  position: relative;
+}
+
+.timeline > li {
+  float: left;
+  width: 300px;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 2;
+}
+.timeline > .right {
+  float: right;
+}
+
+.clear-right {
+  clear:right;
+}
+
+.clear-left{
+  clear:left;
+}
+
+.pointer {
+  background-color: white;
+  width: 40px;
+  height: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-left: -40px;
+  margin-right: 10px;
+  position: relative;
+  z-index: 3;
+  float: left;
+}
+
+.pointer-right {
+  background-color: white;
+  width: 40px;
+  height: 15px;
+  margin-top: 10px;
+  margin-right: -40px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 3;
+  float: right;
+}
+
+
